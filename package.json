@@ -10,9 +10,9 @@
   "scripts": {
     "test": "webpack --config webpack.config.js",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
     "server": "node server.js",
-    "build": "webpack"
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +32,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "react": "^16.13.0"
+    "react": "^16.13.0",
+    "uglifyjs-webpack-plugin": "^2.2.0"
   }
 }
