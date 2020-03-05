@@ -6,7 +6,7 @@
  * @Description: In User Settings Edit
  * @FilePath: /webpack_test/src/index.js
  */
-// import _ from 'lodash';
+import _ from 'lodash';
 // import printMe from './print.js';
 // import './style.css';
 import { cube } from './math.js';
